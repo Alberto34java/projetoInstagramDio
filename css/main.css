@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('../images/globe.jpg');
+    color: black;
+}
+/* SECTION DA IMAGEM */
+
+/*  section.formulario   */
+
+h2{ color: white;  font-size: 25px;  }
+section.images  img.instagram-celular  { width: 700px;
+    height: 700px; 
+    margin-top: 40px;  }
+    section.images img.instagram-celular { margin-left: 100px;}
+
+    section.formulario{ margin-left: 680px;
+    margin-top: -620px;
+    width: 350px; height: 580px;
+    }
+
+
+    section.formulario form input[type=email],
+    section.formulario form input[type=password],
+    section.formulario form button[type=submit]
+    {
+        width:  250px;
+        height: 30px;
+        margin: 10px;
+        margin-left: 45px;
+       
+    }
+    section.formulario form{  margin-top: 20px;}
+    section.formulario{ border: none;}
+
+    fieldset {
+        border: none;
+    }
+  fieldset  img.apple,
+  fieldset img.google-play {
+        width:  140px;
+        height: 40px;
+        margin-left: 20px;
+    }
+
+    fieldset.nao-tem-conta { border: black solid 1px;}
+    img.facebook{ width: 20px; height: 20px;
+    margin-left: 60px; 
+    margin-top: 20px;}
+    a.esqueceu{ margin-left: 100px;
+    color: blue;
+    text-decoration: none;
+    margin-bottom: 40px;
+    
+    }
+    fieldset.nao-tem-conta{ margin: 20px;}
+    fieldset.nao-tem-conta p a{
+        font-size: 20px;
+        color: #1211f1;
+        
+    } 
+    h3{  font-size: 20px;
+        color: white; }
+
+        section.formulario h2{
+            margin-top: 50px;
+            text-align: center;
+            font-family: 'Lobster', cursive;
+        }
+
+        p.ou{
+            text-align: center;
+            font-size: 16px;
+            color: #ACACAC;
+        }
+
+        a.esqueceu {
+            color: white;
+            font-size: 20px;
+        }
+
+        section.formulario form button[type=submit]{
+            background-color:#0841FF;
+            color: rgb(240, 245, 255);
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+section.formulario div.form{
+width: 350px;
+height: 370px;
+border: black solid 1px;
+}
+
+fieldset.nao-tem-conta {
+width: 350px;
+height: 60px;
+border: black solid 1px;
+margin: 0;
+margin-top: 10px;
+}
+
+fieldset.nao-tem-conta p{
+padding-top: 15px;
+margin-left: 40px;
+color: white;
+font-size: 20px;
+
+}
+section.formulario fieldset.nao-tem-conta a{
+text-decoration: none;
+padding-top: 15px;
+color: white;
+font-size: 20px;
+} 
+
+p.aplicativo{
+text-align: center;
+margin-top: 20px;
+color: white;
+font-size: 20px;
+}
+section.formulario fieldset.botoes {
+margin-top: 20px;
+}
+section.formulario fieldset.botoes img.apple{
+padding-right: -10px;
+margin-left: 30px;
+}
+section.formulario fieldset.botoes img.google-play{
+padding-left: -25px;
+}
+
+/* alterando agora os links do Rodape Ou Tag Footer */
+
+footer section.primeiro {
+margin-left: 320px;
+}
+
+/* TEXTO BRANCO NA TAG A*/
+footer section.primeiro ul li a, footer section.segundo ul li a{
+color: white;
+font-size: 20px;
+}
+
+footer section.primeiro ul li a{
+text-decoration: none;
+
+}
+footer section.primeiro ul li{
+display: flex;
+float: left;
+padding: 2px;
+}
+
+
+footer section.segundo {
+
+padding-top: 10px;
+margin-left: 360px;
+}
+
+footer section.segundo ul li a { text-decoration: none;}
+footer section.segundo ul li{ display: flex; float: left; padding: 4px;}
+
+/* HOVER NOS LINK´S*/
+
+footer section.segundo ul li a:hover {
+color: red;
+cursor: pointer;
+}
+footer section.primeiro ul li a:hover{
+color: red;
+cursor: pointer;
+
+}
+footer section.idioma {
+padding-top: 20px;
+margin-left: 420px;
+}
+
+/* ESPAÇAMENTO ENTRE A TAG SELECT E O PARÁGRAFO*/
+footer section.idioma select{
+padding-right: 20px;
+width: 100px;
+height: 30px;
+}
+
+footer section.idioma p{
+margin-left: 130px;
+margin-top: -20px;
+font-size: 20px;
+color: white;
+}
+a.facebook{
+text-decoration: none;
+font-size: 20px;
+color: white;
+}
