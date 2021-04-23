@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+
+    <style>
+        /* SERÁ APLICADO ESTILOS INICIALMENTE AQUI DEPOIS IRÁ 
+        PARA UM ARQUIVO DENTRO DA PASTA CSS   */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: white;
+            color: black;
+        }
+        /* SECTION DA IMAGEM */
+
+        /*  section.formulario   */
+        
+      section.images  img.instagram-celular  { width: 700px;
+            height: 700px; 
+            margin-top: 40px;  }
+            section.images img.instagram-celular { margin-left: 100px;}
+
+            section.formulario{ margin-left: 680px;
+            margin-top: -620px;
+            width: 350px; height: 580px;
+            }
+
+
+            section.formulario form input[type=email],
+            section.formulario form input[type=password],
+            section.formulario form button[type=submit]
+            {
+                width:  250px;
+                height: 30px;
+                margin: 10px;
+            }
+            section.formulario{ border: black solid 1px;}
+
+            fieldset {
+                border: none;
+            }
+          fieldset  img.apple,
+          fieldset img.google-play {
+                width:  140px;
+                height: 40px;
+                margin-left: 20px;
+            }
+    </style>
+</head>
+<body>
+    <section class="images">
+        <img src="./images/instagram-celular.png" alt="" class="instagram-celular">
+    </section>
+    <section class="formulario">
+        <h2>Instagram</h2>
+        <form action="#">
+            <input type="email" name="email" id="email" placeholder="Teleone,nome de usuário ou email"><br>
+            <input type="password" name="" id="" placeholder="Senha"><br>
+            <button type="submit">Entrar</button>
+            <hr>Ou <hr>
+            <h3><img src="" alt="">Entrar com Facebook</h3><br>
+            <a href="#">Esqueceu a senha?</a>
+        </form>
+        <fieldset>
+            <p>Não Tem Uma Conta?<a href="">Cadastre-se</a> </p>
+        </fieldset>
+        <p class="aplicativo">Obtenha o Aplicativo</p>
+        <fieldset>
+            <img src="./images/apple-button.png" alt="" class="apple">
+            <img src="./images/googleplay-button.png" alt="" class="google-play">
+        </fieldset>
+    </section>
+    <footer>
+        <section class="primeiro">
+            <ul>
+                <li><a href="">Sobre</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Carreiras</a></li>
+                <li><a href="">Ajuda</a></li>
+                <li><a href="">API</a></li>
+                <li><a href="">Privacidade</a></li>
+                <li><a href="">Termos</a></li>
+                <li><a href="">Contas mais relevantes</a></li>
+                <li><a href="">Hashtags</a></li>
+                <li><a href="">Localizações</a></li>
+            </ul>
+        </section>
+        <section class="segundo">
+            <ul>
+                <li><a href="">Beleza</a></li>
+                <li><a href="">Dança e Apresentação</a></li>
+                <li><a href="">Fitness</a></li>
+                <li><a href="">Comida e bebida</a></li>
+                <li><a href="">Casa e jardim</a></li>
+                <li><a href="">Música</a></li>
+                <li><a href="">Artes visuais</a></li>
+            </ul>
+        </section>
+        <section class="idioma">
+            <select name="" id="">
+                <option value=""></option>
+            </select>
+            <p>&copy; 2021 Instagram do Facebook</p>
+        </section>
+    </footer>
+</body>
+</html>
