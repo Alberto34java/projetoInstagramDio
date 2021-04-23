@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <title>Instagram</title>
 
     <style>
         /* SERÁ APLICADO ESTILOS INICIALMENTE AQUI DEPOIS IRÁ 
-        PARA UM ARQUIVO DENTRO DA PASTA CSS   */
+        PARA UM ARQUIVO DENTRO DA PASTA CSS  
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        */
         *{
             margin: 0;
             padding: 0;
@@ -39,7 +45,10 @@
                 width:  250px;
                 height: 30px;
                 margin: 10px;
+                margin-left: 45px;
+               
             }
+            section.formulario form{  margin-top: 20px;}
             section.formulario{ border: black solid 1px;}
 
             fieldset {
@@ -51,6 +60,24 @@
                 height: 40px;
                 margin-left: 20px;
             }
+
+            fieldset.nao-tem-conta { border: black solid 1px;}
+            img.facebook{ width: 20px; height: 20px;
+            margin-left: 60px; 
+            margin-top: 20px;}
+            fieldset.nao-tem-conta p a{
+                font-size: 20px;
+                color: #1211f1;
+            } 
+            h3{  font-size: 20px;
+                color: #1211f1; }
+
+                section.formulario h2{
+                    margin-top: 50px;
+                    text-align: center;
+                    font-family: 'Lobster', cursive;
+                }
+
     </style>
 </head>
 <body>
@@ -64,10 +91,10 @@
             <input type="password" name="" id="" placeholder="Senha"><br>
             <button type="submit">Entrar</button>
             <hr>Ou <hr>
-            <h3><img src="" alt="">Entrar com Facebook</h3><br>
+            <h3><img src="./images/facebook.png" alt="" class="facebook">Entrar com Facebook</h3><br>
             <a href="#">Esqueceu a senha?</a>
         </form>
-        <fieldset>
+        <fieldset class="nao-tem-conta">
             <p>Não Tem Uma Conta?<a href="">Cadastre-se</a> </p>
         </fieldset>
         <p class="aplicativo">Obtenha o Aplicativo</p>
